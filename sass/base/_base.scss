@@ -20,10 +20,18 @@ ul {
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto auto;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
 }
 
 .header-link-list,
@@ -31,7 +39,8 @@ ul {
 .services__list,
 .team-list,
 .button-list,
-.portfolio-list {
+.portfolio-list,
+.social-list {
   list-style-type: none;
 }
 img {
