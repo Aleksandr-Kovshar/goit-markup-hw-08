@@ -66,10 +66,20 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-right: 93px;
+  margin-right: 276px;
 }
 .logo-accent {
   color: #2196f3;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 88px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 93px;
+  }
 }
 
 header {
@@ -126,15 +136,28 @@ header {
   }
 }
 
-nav {
-  margin-right: 331px;
-}
 @media screen and (max-width: 767px) {
   nav {
     margin-top: 48px;
     margin-left: 40px;
     margin-right: 0px;
     margin-bottom: 302px;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 84px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  nav {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 305px;
+    margin-bottom: 0px;
   }
 }
 
@@ -174,6 +197,7 @@ nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-right: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -182,6 +206,7 @@ nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-right: 0px;
   }
 }
 
@@ -265,10 +290,10 @@ nav {
   text-decoration: none;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  min-width: 142px;
+  min-width: 138px;
   fill: #757575;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,6 +317,8 @@ nav {
 }
 @media screen and (min-width: 1200px) {
   .contacts {
+    font-size: 14px;
+    min-width: 142px;
     margin-right: 30px;
     margin-bottom: 0px;
   }

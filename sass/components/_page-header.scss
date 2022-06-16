@@ -31,12 +31,23 @@ header {
 }
 
 nav {
-  margin-right: 331px;
   @media screen and (max-width: 767px) {
     margin-top: 48px;
     margin-left: 40px;
     margin-right: 0px;
     margin-bottom: 302px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 84px;
+    margin-bottom: 0px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 305px;
+    margin-bottom: 0px;
   }
 }
 
@@ -62,9 +73,11 @@ nav {
   }
   @media screen and (min-width: 768px) {
     flex-direction: column;
+    margin-right: 0px;
   }
   @media screen and (min-width: 1200px) {
     flex-direction: row;
+    margin-right: 0px;
   }
 }
 
@@ -132,10 +145,10 @@ nav {
   text-decoration: none;
   font-family: $main-font;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  min-width: 142px;
+  min-width: 138px;
   fill: $secondary-color;
   display: flex;
   align-items: center;
@@ -152,6 +165,8 @@ nav {
     }
   }
   @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    min-width: 142px;
     margin-right: 30px;
     margin-bottom: 0px;
     &:last-child {
