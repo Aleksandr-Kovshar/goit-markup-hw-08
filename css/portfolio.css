@@ -66,7 +66,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-right: 276px;
 }
 .logo-accent {
   color: #2196f3;
@@ -138,10 +137,10 @@ header {
 
 @media screen and (max-width: 767px) {
   nav {
-    margin-top: 48px;
-    margin-left: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 302px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -188,7 +187,7 @@ header {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-left: 40px;
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -379,12 +378,10 @@ header {
 }
 @media screen and (max-width: 767px) {
   .menu-button {
-    position: absolute;
+    position: fixed;
     right: 15px;
     top: 10px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: block;
     z-index: 5;
     margin: 0;
     padding: 0;
@@ -420,6 +417,9 @@ header {
     display: none;
     overflow-y: scroll;
     background-color: white;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -427,10 +427,14 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 48px 40px;
 }
 
 .social-list {
@@ -447,7 +451,7 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 64px;
+    margin-top: 0px;
   }
 }
 

@@ -32,10 +32,10 @@ header {
 
 nav {
   @media screen and (max-width: 767px) {
-    margin-top: 48px;
-    margin-left: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 302px;
+    margin-bottom: 0px;
   }
   @media screen and (min-width: 768px) {
     margin-top: 0px;
@@ -69,7 +69,7 @@ nav {
   display: flex;
   @media screen and (max-width: 767px) {
     flex-direction: column-reverse;
-    margin-left: 40px;
+    margin-left: 0px;
   }
   @media screen and (min-width: 768px) {
     flex-direction: column;
@@ -220,10 +220,10 @@ nav {
 .menu-button {
   display: none;
   @media screen and (max-width: 767px) {
-    position: absolute;
+    position: fixed;
     right: 15px;
     top: 10px;
-    display: inline-flex;
+    display: block;
     z-index: 5;
     margin: 0;
     padding: 0;
@@ -252,11 +252,14 @@ nav {
     display: none;
     overflow-y: scroll;
     background-color: white;
+    justify-content: space-between;
   }
 }
 .menu-conteiner.is-open {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+  padding: 48px 40px;
 }
 
 .social-list {
@@ -265,7 +268,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 64px;
+    margin-top: 0px;
   }
 }
 

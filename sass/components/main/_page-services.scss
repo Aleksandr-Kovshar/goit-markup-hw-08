@@ -1,5 +1,9 @@
 section.services {
+  display: none;
   padding-top: 47px;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 
 .services__list {

@@ -1,14 +1,20 @@
 .hero-section {
+  margin-left: auto;
+  margin-right: auto;
   background-color: $futer-bg-color;
   padding-top: 200px;
   padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero/mobile-hero-min.jpg);
 }
 
 @media screen and (min-width: 480px) {
   .hero-section {
+    max-width: 767px;
+    max-height: 599px;
   }
 
   @media screen and (min-device-pixel-ratio: 1),
@@ -30,6 +36,8 @@
 }
 @media screen and (min-width: 768px) {
   .hero-section {
+    max-width: 1199px;
+    max-height: 599px;
   }
 
   @media screen and (min-device-pixel-ratio: 1),
@@ -51,6 +59,8 @@
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
+    max-width: 1600px;
+    max-height: 600px;
   }
 
   @media screen and (min-device-pixel-ratio: 1),
@@ -85,7 +95,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  min-height: 120px;
+  max-height: 120px;
   @media screen and (min-width: 1200px) {
     font-size: 44px;
     line-height: 1.36;
