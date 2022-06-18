@@ -28,6 +28,7 @@
 .product-thumb {
   position: relative;
   overflow: hidden;
+  display: block;
 }
 
 .portfolio-item-description {
@@ -85,8 +86,6 @@
   border-bottom-color: #eeeeee;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
 }
 

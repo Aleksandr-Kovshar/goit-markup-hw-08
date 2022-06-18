@@ -152,12 +152,19 @@
           <ul class="services__list">
             <li class="services__item">
               <div class="service">
-                <img
-                  src="./images/gallery/box1.jpg"
-                  width="370"
-                  height="294"
-                  alt="Десктопные приложения"
-                />
+                <picture>
+                  <source
+                    srcset="./images/gallery/box1-min.jpg 1x, ./images/gallery/box1@2x-min.jpg 2x"
+                  />
+
+                  <img
+                    src="./images/gallery/box1.jpg"
+                    alt="Десктопные приложения"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
+
                 <div class="service__fond-title">
                   <p class="service__title">Десктопные приложения</p>
                 </div>
@@ -165,7 +172,18 @@
             </li>
             <li class="services__item">
               <div class="service">
-                <img src="./images/gallery/box2.jpg" alt="Мобильные приложения" />
+                <picture>
+                  <source
+                    srcset="./images/gallery/box2-min.jpg 1x, ./images/gallery/box2@2x-min.jpg 2x"
+                  />
+
+                  <img
+                    src="./images/gallery/box2.jpg"
+                    alt="Мобильные приложения"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
                 <div class="service__fond-title">
                   <p class="service__title">Мобильные приложения</p>
                 </div>
@@ -173,7 +191,18 @@
             </li>
             <li class="services__item">
               <div class="service">
-                <img src="./images/gallery/box3.jpg" alt="Дизайнерские решения" />
+                <picture>
+                  <source
+                    srcset="./images/gallery/box3-min.jpg 1x, ./images/gallery/box3@2x-min.jpg 2x"
+                  />
+
+                  <img
+                    src="./images/gallery/box3.jpg"
+                    alt="Дизайнерские решения"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
                 <div class="service__fond-title">
                   <p class="service__title">Дизайнерские решения</p>
                 </div>
@@ -197,17 +226,17 @@
                 />
                 <source
                   srcset="
-                    ./images/team/imgtable-productdesigner-min.jpg   1x,
-                    ./images/team/imgtable-productdesigner@2-min.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
                     ./images/team/imgdesktop-productdesigner-min.jpg    1x,
                     ./images/team/imgdesktop-productdesigner@x2-min.jpg 2x
                   "
                   media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/imgtable-productdesigner-min.jpg   1x,
+                    ./images/team/imgtable-productdesigner@2-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
                 />
 
                 <img
@@ -264,17 +293,17 @@
                 />
                 <source
                   srcset="
-                    ./images/team/imgtable-frontenddeveloper-min.jpg    1x,
-                    ./images/team/imgtable-frontenddeveloper@x2-min.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
                     ./images/team/imgdesktop-frontenddeveloper-min.jpg    1x,
                     ./images/team/imgdesktop-frontenddeveloper@x2-min.jpg 2x
                   "
                   media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/imgtable-frontenddeveloper-min.jpg    1x,
+                    ./images/team/imgtable-frontenddeveloper@x2-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
                 />
 
                 <img
@@ -330,17 +359,17 @@
                 />
                 <source
                   srcset="
+                    ./images/team/imgdesktop-marketingmarketing-min.jpg 1x,
+                    ./images/team/imgdesktop-marketing@x2-min.jpg       2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
                     ./images/team/imgtable-marketing-min.jpg    1x,
                     ./images/team/imgtable-marketing@x2-min.jpg 2x
                   "
                   media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
-                    ./images/team/imgdesktop-marketing-min.jpg,
-                    ./images/team/imgdesktop-marketing@x2-min.jpg 2x
-                  "
-                  media="(min-width: 1200px)"
                 />
 
                 <img src="./images/team/imgmobile-marketing-min.jpg" alt="сотрудник команды" />
@@ -393,17 +422,17 @@
                 />
                 <source
                   srcset="
-                    ./images/team/imgtable-designer-min.jpg    1x,
-                    ./images/team/imgtable-designer@x2-min.jpg 2x
-                  "
-                  media="(min-width: 768px)"
-                />
-                <source
-                  srcset="
                     ./images/team/imgdesktop-designer-min.jpg    1x,
                     ./images/team/imgdesktop-designer@x2-min.jpg 2x
                   "
                   media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/team/imgtable-designer-min.jpg    1x,
+                    ./images/team/imgtable-designer@x2-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
                 />
 
                 <img src="./images/team/imgmobile-designer-min.jpg" alt="сотрудник команды" />
