@@ -45,10 +45,41 @@ address {
 .address-list {
   display: flex;
   flex-direction: column;
+  margin-bottom: 60px;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+    align-items: start;
+  }
 }
 
 .container.footer-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+.wrapper-adress-socail {
+  display: flex;
+  flex-direction: column;
+  @media screen and(min-width:768px) {
+    flex-direction: row;
+  }
+}
+
+.social-footer {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and(min-width:1200px) {
+    margin-bottom: 0px;
+    align-items: start;
+  }
 }
 
 .social-footer-list {
@@ -56,7 +87,9 @@ address {
   display: flex;
   justify-content: space-between;
   min-width: 206px;
-  margin-right: 93px;
+  @media screen and(min-width:1200px) {
+    margin-right: 93px;
+  }
 }
 .social-footer-link {
   width: 44px;
@@ -83,7 +116,14 @@ address {
 .address-container {
   display: flex;
   flex-direction: column;
-  margin-right: 70px;
+  margin-right: 0px;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    margin-right: 70px;
+  }
+  @media screen and (min-width: 1200px) {
+    align-items: start;
+  }
 }
 .social-footer-contents {
   padding-bottom: 20px;
@@ -100,6 +140,10 @@ address {
 .subscription-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    align-items: start;
+  }
 }
 
 .subscription-form-title {
@@ -117,8 +161,14 @@ address {
 .subscription-form-wrapper {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    align-items: start;
+  }
 }
+
 .subscription-form-input {
   position: relative;
   width: 358px;
@@ -181,6 +231,7 @@ address {
 
 .subscription-form-field {
   margin-right: 12px;
+  margin-bottom: 20px;
 }
 .wrapper-icon-subscription-form {
   position: relative;
