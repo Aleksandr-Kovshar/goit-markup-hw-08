@@ -407,6 +407,9 @@ nav {
     border: none;
     background: transparent;
   }
+  .menu-button:hover, .menu-button:focus {
+    color: #2196f3;
+  }
 }
 
 .menu-button .icon-cross {

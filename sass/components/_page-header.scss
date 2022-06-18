@@ -240,6 +240,10 @@ nav {
     padding: 0;
     border: none;
     background: transparent;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
   }
 }
 .menu-button .icon-cross {
