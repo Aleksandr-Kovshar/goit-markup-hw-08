@@ -1,5 +1,8 @@
 .clients {
-  padding: 94px 0px;
+  padding: 60px 0px;
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0px;
+  }
 }
 
 .clients__title {
@@ -7,15 +10,15 @@
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
-  line-height: 33px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 30px;
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
-    ont-size: 36px;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 1.67;
   }
 }
 
@@ -47,7 +50,7 @@
 }
 
 .clients__link {
-  width: 210px;
+  max-width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;

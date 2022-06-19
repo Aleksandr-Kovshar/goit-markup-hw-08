@@ -4,15 +4,7 @@ header {
   border-bottom-width: 1px;
   margin-left: auto;
   margin-right: auto;
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
+  
 }
 
 .header-container {
@@ -22,13 +14,18 @@ header {
   padding-top: 16px;
   padding-bottom: 16px;
   margin: auto auto;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
   @media screen and (min-width: 768px) {
     padding-top: 28px;
     padding-bottom: 28px;
+    width: 768px;
   }
   @media screen and (min-width: 1200px) {
     padding-top: 32px;
     padding-bottom: 32px;
+    width: 1200px;
   }
 }
 .header-link-list {
@@ -283,8 +280,9 @@ nav {
   @media screen and (max-width: 767px) {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     margin-top: 0px;
+    max-width: 100%;
   }
 }
 
